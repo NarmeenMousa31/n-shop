@@ -6,7 +6,7 @@ import Footer from './../Component/Web/Footer/Footer';
 export default function Layout() {
   return (
     <>
-      <Navbar />
+      <Navbar/>
       <Outlet />
       <Footer />
     </>

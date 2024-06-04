@@ -1,7 +1,6 @@
 import React from 'react'
 
 export default function Input({id,name,type,title,onChange,value,errors,onBlur,touched}) {
-    console.log(touched);
   return (
     <>
     <div className="input-group mb-3">
